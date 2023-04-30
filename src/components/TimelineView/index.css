@@ -1,0 +1,44 @@
+/* Write your CSS here */
+.timeline-container {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  overflow-y: scroll;
+}
+
+.responsive-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-container {
+  width: 100%;
+  text-align: center;
+}
+
+.heading {
+  font-size: 20px;
+  color: #1e293b;
+  font-weight: 700;
+}
+
+@media (min-width: 768px) {
+  .heading {
+    font-size: 30px;
+  }
+}
+
+.ccbp-heading {
+  color: #2b237c;
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .ccbp-heading {
+    font-size: 30px;
+  }
+}

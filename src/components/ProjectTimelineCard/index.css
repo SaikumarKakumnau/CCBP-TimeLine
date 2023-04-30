@@ -1,0 +1,108 @@
+/* Write your CSS here */
+.chrono-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.image-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.project-image {
+  width: 100%;
+}
+
+.text-container {
+  font-family: 'Roboto';
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.heading-duration {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+@media (min-width: 768px) {
+  .heading-duration {
+    display: flex;
+    flex-direction: row;
+  }
+}
+
+.project-title {
+  color: #171f46;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+@media (min-width: 768px) {
+  .project-title {
+    font-size: 20px;
+  }
+}
+
+.duration-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+@media (min-width: 768px) {
+  .duration-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+}
+
+.time-icon {
+  height: 10px;
+  width: 10px;
+}
+
+@media (min-width: 768px) {
+  .time-icon {
+    height: 15px;
+    width: 15px;
+  }
+}
+
+.duration {
+  color: #1e293b;
+  font-size: 10px;
+  font-weight: 600;
+}
+
+@media (min-width: 768px) {
+  .duration {
+    font-size: 15px;
+  }
+}
+
+.project-description {
+  color: #1e293b;
+  font-size: 10px;
+  font-weight: 400;
+}
+
+@media (min-width: 768px) {
+  .project-description {
+    font-size: 15px;
+  }
+}
+
+.url-link {
+  font-size: 15px;
+}
